@@ -1,2 +1,7 @@
-# Revising-Aggregations---Averages.sql
-Query the average population of all cities in CITY where District is California.
+SELECT AVG(POPULATION)
+<br>
+FROM CITY
+<br>
+WHERE
+<br>
+DISTRICT = 'California';
